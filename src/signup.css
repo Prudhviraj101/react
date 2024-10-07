@@ -1,0 +1,116 @@
+#div{
+    text-align:left;
+    border: solid;
+    border-radius: 20px;
+    margin: 100px 0 0 400px;
+    width: 40%;
+    height: 500px;
+    background-color: blanchedalmond;
+    animation: down 3s 1;
+   }
+   #div11{
+    padding: 0%;
+    border: none;
+    height: 30px;
+    text-align: start;
+
+   }
+   #div22{
+      border: none;
+      margin-top: 13px;
+   }
+   #div36{
+    display: flex;
+   
+    height: 35px;
+        
+   }
+   #div4 {
+    
+   border: none;
+   }
+   #div5{
+    display: flex;
+   }
+   #div6{
+    display: flex;
+    justify-content: space;
+   }
+   #div7{
+    text-align: center;
+    margin-top: 30px;
+   }
+   #input{
+    margin-left: 10px;
+    border: groove;
+    border-radius: 5px;
+    width: 37%;
+   }
+   #input1{
+    margin-left: 30px;
+    border: groove;
+    border-radius: 5px;
+    width: 38%;
+   }
+   #input2{
+    height: 35px;
+    margin-left: 10px ;
+    border: groove;
+    border-radius: 5px;
+    width: 80%;
+   }
+   #input3{
+    height: 35px;
+    margin-left: 10px ;
+    border: groove;
+    border-radius: 5px;
+    width: 80%;
+   }
+   .input{
+    display: flex;
+    width: 0px;
+    border: solid;
+   }
+   label{
+    margin-left: 10px;
+   }
+   select{
+    margin-left: 10px;
+    border: groove;
+    border-radius: 5px;
+   }
+   button{
+    background-color: lightseagreen;
+    height: 40px;
+    width: 200px;
+    border: thin;
+    border-radius: 10px;
+   }
+   button:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: 0.4s;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+
+   }
+   #lab32{
+    font-weight: bold;
+   }
+@keyframes down {
+   from{
+     transform: translateY(-100px);
+     opacity: 0;
+   }
+   to{
+      transform: translateY(0px);
+      opacity: 1;
+   }
+}
+h1{
+   background:linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}

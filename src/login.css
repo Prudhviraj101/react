@@ -1,0 +1,11 @@
+#dig{
+    border: solid;
+    width: 500px;
+    display: flex column;
+    text-align: center;
+    padding: 25px;
+    margin-left: 500px;
+}
+#in2{
+    margin-left: 15px;
+}

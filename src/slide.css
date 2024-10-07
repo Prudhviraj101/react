@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ #div2{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    
+ }
+#div2{
+    position: relative;
+    left: 0;
+    width: 500%;
+   animation: 20s slide infinite;
+}
+@keyframes slide{
+    0%   {
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    }
+    20%{
+        left: -100%;
+    }
+    30%{
+        left: -100%;
+    }
+    40%{
+        left: -200%;
+    }
+    50%{
+        left:-200%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    80%{
+        left:-400% ;
+    }
+    90%{
+        left: -400%;
+    }
+    100%{
+        left: -500px;
+    }
+}
+    
+
+.div1{
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+.div1 img{
+    width: 100%;
+    height: 500px;
+}
+#div2{
+    margin-top: -23px;
+}
